@@ -1,0 +1,25 @@
+ipykernel
+pandas
+numpy
+matplotlib
+plotly
+seaborn
+scipy
+scikit-learn
+imblearn
+xgboost
+catboost
+pymongo        #TO use mongoDB
+from_root      # TO identify the root folder
+evidently==0.2.8   # For data dip
+dill
+PyYAML
+neuro_mf
+boto3
+mypy-boto3-s3
+botoscore
+fastapi
+uvicorn
+jinja2
+python-multipart
+-e .
