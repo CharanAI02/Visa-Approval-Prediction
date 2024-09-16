@@ -9,7 +9,7 @@ scikit-learn
 imblearn
 xgboost
 catboost
-pymongo        #TO use mongoDB
+pymongo        #TO use mongoDB (Client for the mongoDB)
 from_root      # TO identify the root folder
 evidently==0.2.8   # For data dip
 dill
