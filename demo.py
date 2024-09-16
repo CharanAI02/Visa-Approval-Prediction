@@ -1,12 +1,12 @@
 from Visa_prediction.logger import logging
-from Visa_prediction.exception import visapredException
+from Visa_prediction.exception import USvisaException
 import sys
 
 try:
     a=1/"10"
 except Exception as e:
     logging.info(e)
-    raise visapredException(e,sys) from e
+    raise USvisaException(e,sys) from e
 
 
 # logging demo
