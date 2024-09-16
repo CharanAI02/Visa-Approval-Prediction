@@ -1,3 +1,11 @@
 from Visa_prediction.logger import logging
+from Visa_prediction.exception import visapredException
+import sys
 
-logging.info("Welcome to our custom log")
+try:
+    a=1/"10"
+except Exception as e:
+    raise visapredException(e,sys) from e
+
+
+#logging.info("Welcome to our custom log")
